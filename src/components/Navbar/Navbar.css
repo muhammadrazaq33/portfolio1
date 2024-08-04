@@ -1,0 +1,11 @@
+.menuItem{
+    margin: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.menuItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
