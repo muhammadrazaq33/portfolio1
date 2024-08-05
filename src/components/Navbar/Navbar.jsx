@@ -21,10 +21,10 @@ const Navbar = () => {
           <Link
             className="menuItem"
             activeClass="active"
-            to="header"
+            to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-50}
             duration={500}
           >
             About
@@ -32,16 +32,18 @@ const Navbar = () => {
           <Link className="menuItem">Clients</Link>
           <Link className="menuItem">Portfolio</Link>
         </div>
+        {/* <button onClick={() => {
+          document.getElementById('contact').scrollIntoView({ behavior: "smooth" });
+          }} className="bg-[white] text-[black] text-[1.1rem] py-[0.7rem] px-[1.5rem] border-none rounded-[2rem]">
+            Contact Me
+          </button> */}
         <Link
-          activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          {" "}
-          <button className="bg-[white] text-[black] text-[1.1rem] py-[0.7rem] px-[1.5rem] border-none rounded-[2rem]">
+            to="contact"
+            smooth={true}
+            offset={-70}
+            duration={500}>
+          <button className="bg-[white] text-[black] text-[1.1rem] py-[0.7rem] px-[1.5rem] border-none rounded-[2rem]"
+          >
             Contact Me
           </button>
         </Link>
