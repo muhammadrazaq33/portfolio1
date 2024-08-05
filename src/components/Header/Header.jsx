@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
-    <section className='header'> 
+    <section className='header' id='header'> 
       <div className='h-[100vh] w-[100vw] text-[3rem] font-semibold p-[2rem] flex flex-col justify-center'>
         <span className='text-[1.75rem] font-light'>Hello,</span>
         <span>
