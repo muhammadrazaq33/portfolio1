@@ -11,7 +11,7 @@ const Header = () => {
           I'm <span className='text-[yellow]'>Muhammad Razaq</span>
           <br /> Mern Stack Developer
         </span>
-        <p className='text-lg font-light'>I am a skilled web developer with experience in creating</p>
+        <p className='text-lg font-light'>I am a skilled web developer with experience in creating usually appealing and user friendly websites.</p>
         <Link><button className='bg-[white] my-[1rem] py-[0.75rem] px-[1.8rem] rounded-[2rem] text-[black] text-[18px]'>Hire Me</button></Link>
       </div>
       <img src="" alt="" />
