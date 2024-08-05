@@ -9,3 +9,19 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
+.listItem{
+     margin: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: rgb(30, 30, 30);
+    border-radius: 1rem;
+}
+.listItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
