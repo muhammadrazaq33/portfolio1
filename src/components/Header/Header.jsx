@@ -4,11 +4,11 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <section className="header mb-20" id="header">
+    <section className="header my-12 md:mt-0 relative" id="header">
       <div className="h-[100vh] w-[100vw] text-[3rem] font-semibold p-[2rem] flex flex-col justify-center">
         <span className="text-[1.75rem] font-light">Hello,</span>
         <span>
-          I'm <span className="text-[yellow]">Muhammad Razaq</span>
+          I'm <span className="text-[#f4f422]">Muhammad Razaq</span>
           <br /> Mern Stack Developer
         </span>
         <p className="text-lg font-light max-w-[30rem]">
@@ -21,7 +21,13 @@ const Header = () => {
           </button>
         </Link>
       </div>
-      <img src="/assets/my-image.jpg" alt="" />
+      <div className="">
+        <img
+          src="/assets/my-image.jpg"
+          className="absolute top-16 sm:right-16 right-4 -z-30 w-[20rem] rounded-[8rem] h-[34rem] sm:h-[32rem] md:h-[27rem] object-cover"
+          alt=""
+        />
+      </div>
     </section>
   );
 };
