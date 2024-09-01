@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: transparent;
 }
-body{
-  background-color: rgb(30, 30, 30);
+body {
+  background-color: #212121;
   color: white;
   font-family: Outfit;
-   overflow: hidden;
+  overflow: hidden;
   overflow-y: scroll;
 }
-.active{
+.active {
   color: yellow;
   padding-bottom: 0.5rem;
   border-bottom: 3px solid yellow;
